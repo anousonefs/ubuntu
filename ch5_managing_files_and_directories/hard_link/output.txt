@@ -1,0 +1,6 @@
+/System/Volumes/Data/Users/anousone/file1.txt
+/System/Volumes/Data/Users/anousone/learn/ubuntu/ch5_managing_files_and_directories/hard_link/file2.txt
+/System/Volumes/Data/Users/anousone/learn/ubuntu/ch5_managing_files_and_directories/hard_link/file3.txt
+/Users/anousone/file1.txt
+/Users/anousone/learn/ubuntu/ch5_managing_files_and_directories/hard_link/file2.txt
+/Users/anousone/learn/ubuntu/ch5_managing_files_and_directories/hard_link/file3.txt
