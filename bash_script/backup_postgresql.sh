@@ -18,6 +18,8 @@ BACKUP_FILE="$BACKUP_DIR/${DB_NAME}_backup_$DATE.sql"
 
 # Dump PostgreSQL database
 docker exec -t "$CONTAINER_NAME" pg_dump -U "$DB_USER" "$DB_NAME" > "$BACKUP_FILE"
+#tar -czvf minio_data_backup_$(date +%Y%m%d_%H%M%S).tar.gz /path/to/local/data/folder
+
 
 # Check if the backup was successful
 if [ $? -eq 0 ]; then
